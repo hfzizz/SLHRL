@@ -1,30 +1,47 @@
-SLHRL: Solo Leveling-inspired Hierarchical Reinforcement Learning Agent
-Introduction: Problem Definition, Motivation, and Context
-Problem Definition
-In many RPGs and gaming contexts, characters possess distinct attributes (e.g., Strength, Agility, Mana) and undergo a progression system, gaining experience and upgrading stats as they level up. Reinforcement Learning (RL) offers a framework for creating agents that can learn to optimize their actions based on rewards and punishments.
+# **SLHRL: Solo Leveling-inspired Hierarchical Reinforcement Learning Agent**
 
-This project aims to design and develop an RL agent inspired by the Solo Leveling series, where the protagonist (Sung Jinwoo) undergoes a continuous leveling process, improving stats and tackling increasingly difficult challenges. The RL agent in this project will:
+Welcome to **SLHRL** – an exciting Reinforcement Learning project inspired by the *Solo Leveling* series. This project leverages **Hierarchical Reinforcement Learning (HRL)** to create an agent that levels up, improves stats, and faces progressively difficult challenges, much like the protagonist, **Sung Jinwoo**.
 
-Gain stats (Strength, Agility, Stamina, etc.) based on its performance in combat and other tasks.
+## **Introduction: Problem Definition, Motivation, and Context**
 
-Learn to make strategic decisions for progression through levels, combat encounters, and skill management.
+### **Problem Definition**
 
-Manage resources like mana and skill points effectively.
+In the world of RPGs, characters evolve through a system of stats (Strength, Agility, Mana) and progressively harder challenges. Our goal is to design an **RL agent** that embodies this progression. The agent will:
 
-Adapt to increasingly complex scenarios using Hierarchical Reinforcement Learning (HRL).
+- Gain stats (Strength, Agility, Stamina) based on combat and task performance.
+- Make strategic decisions to navigate through levels, defeat monsters, and use skills effectively.
+- Manage resources (mana, skill points) dynamically.
+- Adapt to increasingly challenging scenarios using **Hierarchical Reinforcement Learning (HRL)**.
 
-Motivation
-Inspired by the Solo Leveling series, the project explores how an RL agent can emulate the protagonist's growth and adaptability. The main objectives of this project are:
+### **Motivation**
 
-Advanced RL Agent Development: To create a robust RL agent capable of hierarchical decision-making in a complex gaming environment.
+This project draws inspiration from the *Solo Leveling* series, where the protagonist gains power by completing quests and defeating increasingly powerful monsters. By creating an RL agent based on this system, we aim to explore how HRL can be applied to complex, multi-layered decision-making environments, such as:
 
-Simulated RPG Environment: To simulate dynamic, evolving environments inspired by RPG mechanics, where the agent must navigate challenges and improve its stats.
+- Advanced RL agents that handle hierarchical decision-making.
+- Simulated game-like environments inspired by RPG mechanics.
+- HRL to address multi-task problems like combat, leveling, and resource management.
 
-HRL in Game-like Scenarios: To examine the application of Hierarchical Reinforcement Learning (HRL) in scenarios involving complex decision-making, such as combat, leveling, and resource management.
+### **Context**
 
-Context
-Environment Setup: The agent will operate in a “Gate” environment, inspired by RPG dungeons, where monsters spawn, and the agent must defeat them.
+- **Environment**: The agent will navigate a “Gate” environment, an RPG-inspired dungeon where monsters spawn, and the agent must defeat them.
+- **Agent Setup**: The agent starts with basic stats (Strength, Agility, Stamina) and gains experience through quests, combat, and skill upgrades.
+- **Gameplay Mechanics**: The agent must optimize its decisions to handle complex scenarios like quests, combat, and skill management in a dynamic RPG world.
 
-Agent Setup: The agent will have initial attributes (Strength, Agility, Stamina, etc.), and it will gain experience by completing quests, defeating bosses, and upgrading its skills.
+---
 
-Game Mechanics: Similar to RPG games, the agent will face challenges such as combat, quest completion, and skill management, all while making strategic decisions to level up and progress through more difficult stages.
+## **Features**
+
+- **Dynamic Environment**: Explore and battle in dungeons filled with progressively harder monsters.
+- **Stat Progression**: Level up stats like Strength, Agility, and Stamina based on performance.
+- **Resource Management**: Manage mana, health, and skill points for optimal strategy.
+- **HRL-Based Agent**: Hierarchical decision-making to handle complex tasks like combat, questing, and resource management.
+
+---
+
+## **Getting Started**
+
+To get started with SLHRL, follow these steps:
+
+### **1. Clone the repository**
+
+```bash
